@@ -1,12 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import Button from '@material-ui/core/Button';
+import Typography from "@material-ui/core/Typography";
 
 function App() {
   return (
-    <Button variant="contained" color="primary">
-      Hello World!
-    </Button>
+    <Typography variant="h1" component="h2">
+      {/* There is already an h1 in the page, let's not duplicate it. */}
+      h1. Heading
+    </Typography>
   );
 }
 
