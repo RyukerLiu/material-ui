@@ -50,7 +50,7 @@ const UserTable = () => {
     const onDelete = (e) => {
         e.preventDefault();
 
-        fetch(`https://inquisitive-numerous-transport.glitch.me/users/${this.state.id}`, {
+        fetch(`https://inquisitive-numerous-transport.glitch.me/users/${userid}`, {
             "method": "DELETE"
         })
         .then(response => response.json())
