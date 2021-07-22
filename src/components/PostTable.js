@@ -16,7 +16,7 @@ const useStyles = makeStyles({
 });
 
 
-const  PostList = () => {
+const  PostTable = () => {
   const classes = useStyles();
 
   const [error, setError] = useState(null);
@@ -70,4 +70,4 @@ const  PostList = () => {
   }
 }
 
-export default PostList;
+export default PostTable;

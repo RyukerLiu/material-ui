@@ -1,9 +1,10 @@
 import './App.css';
-import PostList from './components/PostList';
+import PostTable from './components/PostTable';
+import UserTable from './components/UserTable';
 
 function App() {
   return (
-    <PostList/>
+    <UserTable/>
   );
 }
 
